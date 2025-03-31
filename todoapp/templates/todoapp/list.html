@@ -1,0 +1,15 @@
+{% extends 'todoapp/base.html' %}
+{% block title %} My Todo List {% endblock %}
+
+{% block content %}
+  <section class="todo-list">
+    <div class="section-header">
+      <h2>My Todo List</h2>
+      <ul>
+        {% for td in todos %}
+        <li> {{ td.title }} </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
+{% endblock %}
