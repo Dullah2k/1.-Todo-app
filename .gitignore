@@ -8,3 +8,6 @@ db.sqlite3
 
 # Ignore virtual environment
 env/
+
+# Node.js
+node_modules/
